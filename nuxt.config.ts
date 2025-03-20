@@ -2,6 +2,11 @@
 export default defineNuxtConfig({
   modules: [
     '@nuxt/content',
+    '@nuxt/eslint',
+    '@nuxt/ui',
+    '@nuxt/image',
+    '@nuxt/icon',
+    '@nuxt/fonts',
   ],
   devtools: { enabled: true },
   future: {
