@@ -1,0 +1,1 @@
+import{a,f as o,k as r,S as s,af as l,l as n}from"./CE4JLAYL.js";const c=a({__name:"Alert",props:{color:{type:String,default:"orange"}},setup(e){return(t,_)=>(r(),o("div",{class:"alert",style:l({"border-color":e.color})},[s(t.$slots,"default",{},void 0,!0)],4))}}),f=Object.assign(n(c,[["__scopeId","data-v-e2cf941a"]]),{__name:"Alert"});export{f as default};
