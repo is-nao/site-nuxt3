@@ -1,0 +1,10 @@
+services:
+  app:
+    container_name: app
+    image: node:lts-alpine
+    working_dir: /app
+    volumes:
+      - .:/app:cached
+    ports:
+      - 3000:3000
+    tty: true
