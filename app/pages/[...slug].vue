@@ -10,6 +10,7 @@ if (!page.value) {
 </script>
 
 <template>
+  <UButton>test</UButton>
   <ContentRenderer
     v-if="page"
     :value="page"
